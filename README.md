@@ -6,5 +6,5 @@ The base framework is that of U-net. U-net has been modified by adding Attention
 
 The input are CT slices which are covid positive and the model outputs the lesion segmentation masks. 
 
-Ensure the CT volumes are in folder named “Data” and lesion mask in folder “Lesion Mask”. The lesion mask should have same name as the corresponding CT volume and both should be in .nii format. The CT scans are extracted and lung window of -1000 to 400 is applied before the slices are normalized for further analysis.
+Ensure the CT volumes are in folder named “Data” and lesion mask in folder “Lesion Mask”. The lesion mask should have same name as the corresponding CT volume and both should be in .nii format. The CT scans are extracted and lung window of -1000 HU to 400 HU is applied before the slices are normalized for further analysis.
 
